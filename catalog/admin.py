@@ -41,8 +41,7 @@ class BooksInstanceInline(admin.TabularInline):
     """
     Defines format of inline book instance insertion (used in BookAdmin)
     """
-    model = BookInstance
-
+    model = BookInstanc
 class BookAdmin(admin.ModelAdmin):
     """
     Administration object for Book models. 
